@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MutilItemsDemo.iml" filepath="$PROJECT_DIR$/MutilItemsDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mutilsitem/app.iml" filepath="$PROJECT_DIR$/mutilsitem/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mutilsitem/mutilsitem.iml" filepath="$PROJECT_DIR$/mutilsitem/mutilsitem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rvtheaderandfooter/rvtheaderandfooter.iml" filepath="$PROJECT_DIR$/rvtheaderandfooter/rvtheaderandfooter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:id="@+id/item_qslatesd_typeimage_iconId"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/item_qslatesd_typeimage_iconId"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00f"
+        android:text="哈哈"
+        android:id="@+id/item_qslatesd_typeimage_loginId"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/item_qslatesd_typeimage_iconId"
+        android:text="哈哈"
+        android:id="@+id/item_qslatesd_typeimage_contentId"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/item_qslatesd_typeimage_contentId"
+        android:id="@+id/item_qslatesd_typeimage_imageId"
+        />
+</RelativeLayout>
